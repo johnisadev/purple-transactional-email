@@ -1,0 +1,121 @@
+<mjml>
+  <mj-head>
+    <mj-font
+      name="Quantico"
+      href="https://fonts.googleapis.com/css2?family=Quantico"
+    />
+    <mj-attributes>
+      <mj-text
+        font-family="Quantico, sans-serif"
+        align="center"
+        font-size="20px"
+        line-height="26px"
+        color="#000000"
+        padding="0px"
+      />
+      <mj-image padding="0px" />
+      <mj-button
+        color="#ffffff"
+        font-size="16px"
+        font-weight="bold"
+        background-color="#f26a4d"
+        font-family="Quantico, sans-serif"
+        border-radius="0px"
+        height="45px"
+        width="200px"
+      />
+      <mj-section padding="0px" background-color="#f4f4f2" />
+      <mj-class
+        name="head-text"
+        font-size="48px"
+        line-height="69px"
+        text-transform="uppercase"
+      />
+    </mj-attributes>
+  </mj-head>
+
+  <mj-body background-color="#F1F1F1">
+    <!-- LOGO SECTION -->
+    <mj-section background-color="#f26a4d">
+      <mj-column>
+        <mj-image
+          width="128px"
+          padding="20px"
+          src="/img/mjml-logo.png"
+          alt="logo"
+          title="logo"
+        />
+      </mj-column>
+    </mj-section>
+    <!-- CHECK OUT THE README -->
+    <mj-section padding="20px">
+      <mj-column width="400px" padding-bottom="15px">
+        <mj-text
+          color="#f26a4d"
+          font-size="46px"
+          line-height="60px"
+          align="center"
+        >
+          Congrats on starting your MJML HTML Email!
+        </mj-text>
+      </mj-column>
+      <mj-column width="420px">
+        <mj-text>
+          Please check out the
+          <span style="color: #f26a4d">"README.md"</span> file for important
+          details on this MJML sarter template!
+        </mj-text>
+        <mj-button
+          href="https://github.com/johnisadev/mjml-email-starter/blob/main/README.md"
+        >
+          Show me the "README"
+        </mj-button>
+      </mj-column>
+    </mj-section>
+    <!-- HANDY RESOURCES SECTION -->
+    <mj-section padding="20px">
+      <mj-column width="400px" padding-bottom="15px">
+        <mj-text
+          color="#f26a4d"
+          font-size="46px"
+          line-height="60px"
+          align="center"
+        >
+          Handy Resources
+        </mj-text>
+      </mj-column>
+      <mj-column width="420px">
+        <mj-button href="https://documentation.mjml.io/"> MJML Docs </mj-button>
+        <mj-button
+          href="https://github.com/mjmlio/mjml/blob/master/packages/mjml-cli/README.md"
+        >
+          MJML CLI Docs
+        </mj-button>
+      </mj-column>
+    </mj-section>
+
+    <!-- FOOTER SECTION -->
+    <mj-section background-color="#F1F1F1" padding-bottom="30px">
+      <mj-column width="300px" padding-top="30px">
+        <mj-social icon-size="25px" mode="vertical">
+          <mj-social-element
+            name="github"
+            href="https://github.com/johnisadev"
+            alt="Johnisadev github profile"
+          >
+            github.com/johnisadev
+          </mj-social-element>
+        </mj-social>
+        <mj-text
+          color="#303030"
+          font-family="Helvetica"
+          font-size="12px"
+          line-height="14px"
+          padding="15px 20px 0px 20px"
+        >
+          Made With ❤️ by johnisadev
+        </mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>
