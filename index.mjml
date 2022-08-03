@@ -1,120 +1,112 @@
 <mjml>
   <mj-head>
-    <mj-font
-      name="Quantico"
-      href="https://fonts.googleapis.com/css2?family=Quantico"
-    />
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css2?family=Roboto" />
     <mj-attributes>
-      <mj-text
-        font-family="Quantico, sans-serif"
-        align="center"
-        font-size="20px"
-        line-height="26px"
-        color="#000000"
-        padding="0px"
-      />
+      <mj-text font-family="Roboto, sans-serif" align="center" font-size="20px" line-height="26px" color="#000000" padding="0px" />
       <mj-image padding="0px" />
-      <mj-button
-        color="#ffffff"
-        font-size="16px"
-        font-weight="bold"
-        background-color="#f26a4d"
-        font-family="Quantico, sans-serif"
-        border-radius="0px"
-        height="45px"
-        width="200px"
-      />
-      <mj-section padding="0px" background-color="#f4f4f2" />
-      <mj-class
-        name="head-text"
-        font-size="48px"
-        line-height="69px"
-        text-transform="uppercase"
-      />
+      <mj-navbar-link letter-spacing="2px" color="#ffffff" font-weight="500" padding-left="20px" padding-right="20px" />
+      <mj-section padding="0px" background-color="#E6E6E6" />
+      <mj-class name="head-text" font-size="48px" line-height="69px" text-transform="uppercase" />
+      <mj-class name="responsive-padding" padding-left="15%" padding-right="15%" />
     </mj-attributes>
+
+    <mj-style>
+      .ProgressBar {
+        height: 9px;
+        background: #dbdbdb;
+        border-radius: 10px;
+        overflow: hidden;
+        max-width: 400px;
+      }
+      
+      .ProgressBar-element {
+        height: 100%;
+        background: #328dc7;
+      }
+      @media (min-width: 480px) {
+        .card-outline {
+          max-width: 500px;
+        }
+      }
+
+    </mj-style>
   </mj-head>
 
-  <mj-body background-color="#F1F1F1">
+  <mj-body background-color="#000">
     <!-- LOGO SECTION -->
-    <mj-section background-color="#f26a4d">
+    <mj-section background-color="#E6E6E6">
       <mj-column>
-        <mj-image
-          width="128px"
-          padding="20px"
-          src="/img/mjml-logo.png"
-          alt="logo"
-          title="logo"
-        />
+        <mj-image width="128px" padding="20px" src="/img/purple-logo.png" alt="logo" title="logo" />
       </mj-column>
     </mj-section>
-    <!-- CHECK OUT THE README -->
-    <mj-section padding="20px">
-      <mj-column width="400px" padding-bottom="15px">
-        <mj-text
-          color="#f26a4d"
-          font-size="46px"
-          line-height="60px"
-          align="center"
-        >
-          Congrats on starting your MJML HTML Email!
-        </mj-text>
-      </mj-column>
-      <mj-column width="420px">
-        <mj-text>
-          Please check out the
-          <span style="color: #f26a4d">"README.md"</span> file for important
-          details on this MJML sarter template!
-        </mj-text>
-        <mj-button
-          href="https://github.com/johnisadev/mjml-email-starter/blob/main/README.md"
-        >
-          Show me the "README"
-        </mj-button>
-      </mj-column>
-    </mj-section>
-    <!-- HANDY RESOURCES SECTION -->
-    <mj-section padding="20px">
-      <mj-column width="400px" padding-bottom="15px">
-        <mj-text
-          color="#f26a4d"
-          font-size="46px"
-          line-height="60px"
-          align="center"
-        >
-          Handy Resources
-        </mj-text>
-      </mj-column>
-      <mj-column width="420px">
-        <mj-button href="https://documentation.mjml.io/"> MJML Docs </mj-button>
-        <mj-button
-          href="https://github.com/mjmlio/mjml/blob/master/packages/mjml-cli/README.md"
-        >
-          MJML CLI Docs
-        </mj-button>
+    <!-- NAVBAR -->
+    <mj-section background-color="#432B8D" border-radius="20px 20px 0px 0px">
+      <mj-column>
+        <mj-navbar base-url="https://purple.com" hamburger="hamburger" ico-color="#ffffff">
+          <mj-navbar-link href="https://purple.com/mattresses">
+            Matrresses
+          </mj-navbar-link>
+          <mj-navbar-link href="https://purple.com/pillows">
+            Pillows
+          </mj-navbar-link>
+          <mj-navbar-link href="https://purple.com/sheets">
+            Sheets
+          </mj-navbar-link>
+          <mj-navbar-link href="https://purple.com/bedding">
+            Bedding
+          </mj-navbar-link>
+          <mj-navbar-link href="https://purple.com/sale"> Sale </mj-navbar-link>
+        </mj-navbar>
       </mj-column>
     </mj-section>
 
-    <!-- FOOTER SECTION -->
-    <mj-section background-color="#F1F1F1" padding-bottom="30px">
-      <mj-column width="300px" padding-top="30px">
-        <mj-social icon-size="25px" mode="vertical">
-          <mj-social-element
-            name="github"
-            href="https://github.com/johnisadev"
-            alt="Johnisadev github profile"
-          >
-            github.com/johnisadev
-          </mj-social-element>
-        </mj-social>
-        <mj-text
-          color="#303030"
-          font-family="Helvetica"
-          font-size="12px"
-          line-height="14px"
-          padding="15px 20px 0px 20px"
-        >
-          Made With ❤️ by johnisadev
+    <!-- ORDER CONFIRMATION SECTION -->
+    <mj-section padding-top="30px"  full-width="false">
+      <mj-column background-color="#F6F4FC" border-radius="10px" padding="30px" css-class="card-outline">
+        <mj-text align="left" font-weight="bold">Order No. #123456</mj-text>
+        <mj-text font-weight="900" font-size="36px" line-height="42px" padding-top="40px" padding-bottom="20px">
+          Hi <span style="color: #432B8D">John!</span>
         </mj-text>
+        <mj-text font-weight="bold" font-size="16px" line-height="30px">
+          Better sleep is on its way!
+        </mj-text>
+        <mj-text font-size="16px">Your purple order has been
+          <span style="font-weight: 700">shipped.</span>
+        </mj-text>
+
+        <!-- progress bar -->
+        <mj-spacer height="30px" />
+        <mj-text font-size="14px" align="left" color="#328dc7">
+          <div class="ProgressBar">
+            <div class="ProgressBar-element"  style="width: 55%;"></div>
+          </div>
+          <span>Shipped</span>
+        </mj-text>
+        
+      </mj-column>
+    </mj-section>
+
+    <!-- ORDER DETAILS SECTION -->
+    <mj-section padding-top="30px" css-class="card-outline">
+      <mj-column background-color="#F6F4FC" border-radius="10px" padding="30px">
+        <mj-text align="left" font-weight="bold">Your Order</mj-text>
+        <mj-text align="left" font-size="15px" >Order ID: #123456</mj-text>
+        <mj-divider border-color="lightgrey" padding="10px 0px" border-width="2px"/>
+        <mj-table padding="0">
+          <tr>
+            <td width="25%">
+              
+              <img src="/img/purple-harmony-pillow.png" alt="purple harmony pillow" />
+            </td>
+            <td width="50%" style="vertical-align: middle; padding-bottom: 40px;">
+              <span style="padding-bottom: 30px">Purple Harmony Pillow</span>
+              <span>Qty: 1</span>
+            </td>
+            <td width="25%" style="vertical-align: middle; padding-bottom: 60px;">
+              <span style="padding-bottom: 30px">$179.00</span>
+            </td>
+          </tr>
+        </mj-table>
       </mj-column>
     </mj-section>
   </mj-body>
