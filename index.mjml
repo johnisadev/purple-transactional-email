@@ -1,44 +1,34 @@
 <mjml>
   <mj-head>
-    <mj-font
-      name="Roboto"
-      href="https://fonts.googleapis.com/css2?family=Roboto"
-    />
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css2?family=Roboto" />
     <mj-attributes>
-      <mj-text
-        font-family="Roboto, sans-serif"
-        align="center"
-        font-size="20px"
-        line-height="26px"
-        color="#000000"
-        padding="0px"
-      />
+      <mj-text font-family="Roboto, sans-serif" align="center" font-size="20px" line-height="26px" color="#000000" padding="0px" />
       <mj-image padding="0px" />
-      <mj-navbar-link
-        letter-spacing="2px"
-        color="#ffffff"
-        font-weight="500"
-        padding-left="20px"
-        padding-right="20px"
-      />
+      <mj-navbar-link letter-spacing="2px" color="#ffffff" font-weight="500" padding-left="20px" padding-right="20px" />
       <mj-section padding="0px" background-color="#E6E6E6" />
-      <mj-class
-        name="head-text"
-        font-size="48px"
-        line-height="69px"
-        text-transform="uppercase"
-      />
-      <mj-class
-        name="responsive-padding"
-        padding-left="15%"
-        padding-right="15%"
-      />
+      <mj-class name="head-text" font-size="48px" line-height="69px" text-transform="uppercase" />
+      <mj-class name="responsive-padding" padding-left="15%" padding-right="15%" />
     </mj-attributes>
 
     <mj-style>
-      .ProgressBar { height: 9px; background: #dbdbdb; border-radius: 10px;
-      overflow: hidden; } .ProgressBar-element { height: 100%; background:
-        #008547; } @media (min-width: 480px) { .card-outline { max-width: 500px; width: 500px;}
+      .ProgressBar {
+        height: 9px;
+        background: #dbdbdb;
+        border-radius: 10px;
+        overflow: hidden;
+      }
+
+      .ProgressBar-element {
+        height: 100%;
+        background:
+          #008547;
+      }
+
+      @media (min-width: 480px) {
+        .card-outline {
+          max-width: 500px;
+          width: 500px;
+        }
       }
     </mj-style>
   </mj-head>
@@ -47,23 +37,13 @@
     <!-- LOGO SECTION -->
     <mj-section background-color="#E6E6E6">
       <mj-column>
-        <mj-image
-          width="128px"
-          padding="20px"
-          src="/img/purple-logo.png"
-          alt="logo"
-          title="logo"
-        />
+        <mj-image width="128px" padding="20px" src="/img/purple-logo.png" alt="logo" title="logo" />
       </mj-column>
     </mj-section>
     <!-- NAVBAR -->
     <mj-section background-color="#432B8D">
       <mj-column>
-        <mj-navbar
-          base-url="https://purple.com"
-          hamburger="hamburger"
-          ico-color="#ffffff"
-        >
+        <mj-navbar base-url="https://purple.com" hamburger="hamburger" ico-color="#ffffff">
           <mj-navbar-link href="https://purple.com/mattresses">
             Matrresses
           </mj-navbar-link>
@@ -83,53 +63,28 @@
 
     <!-- ORDER CONFIRMATION SECTION -->
     <mj-section padding-top="30px">
-      <mj-column
-        background-color="#F6F4FC"
-        border-radius="10px"
-        padding="30px"
-        css-class="card-outline"
-      >
+      <mj-column background-color="#F6F4FC" border-radius="10px" padding="30px" css-class="card-outline">
         <mj-text align="left" font-weight="bold">Order No. #123456</mj-text>
-        <mj-text
-          font-weight="900"
-          font-size="36px"
-          line-height="42px"
-          padding-top="40px"
-          padding-bottom="20px"
-        >
+        <mj-text font-weight="900" font-size="36px" line-height="42px" padding-top="40px" padding-bottom="20px">
           Hi <span style="color: #432b8d">John!</span>
         </mj-text>
         <mj-text font-weight="bold" font-size="16px" line-height="30px">
           Better sleep is on its way!
         </mj-text>
-        <mj-text font-size="16px"
-          >Your purple order has been
+        <mj-text font-size="16px">Your purple order has been
           <span style="font-weight: 700">shipped.</span>
         </mj-text>
 
         <!-- progress bar -->
         <mj-spacer height="30px" />
-        <mj-text
-          font-size="14px"
-          align="left"
-          color="#008547"
-          padding="0px 20px"
-        >
+        <mj-text font-size="14px" align="left" color="#008547" padding="0px 20px">
           <div class="ProgressBar">
             <div class="ProgressBar-element" style="width: 55%"></div>
           </div>
           <span>Shipped</span>
         </mj-text>
         <!-- tracking button -->
-        <mj-button
-          background-color="#432B8D"
-          width="100%"
-          font-size="20px"
-          font-weight="500"
-          padding="10px"
-          border-radius="10px"
-          letter-spacing="1px"
-          >Track your order on purple.com
+        <mj-button background-color="#432B8D" width="100%" font-size="20px" font-weight="500" padding="10px" border-radius="10px" letter-spacing="1px">Track your order on purple.com
         </mj-button>
         <mj-text font-size="15px" color="#858585">
           We'll update your dashboard when the order is out for delivery.
@@ -139,44 +94,27 @@
 
     <!-- ORDER DETAILS SECTION -->
     <mj-section padding-top="30px">
-      <mj-column
-        background-color="#F6F4FC"
-        border-radius="10px 10px 0px 0px"
-        padding="30px"
-        css-class="card-outline"
-      >
+      <mj-column background-color="#F6F4FC" border-radius="10px 10px 0px 0px" padding="30px" css-class="card-outline">
         <mj-text align="left" font-weight="bold">Your Order</mj-text>
         <mj-text align="left" font-size="15px">Order ID: #123456</mj-text>
-        <mj-divider
-          border-color="lightgrey"
-          padding="10px 0px"
-          border-width="2px"
-        />
       </mj-column>
     </mj-section>
+
+    <!-- divider -->
+    <mj-section>
+      <mj-column background-color="#F6F4FC" css-class="card-outline">
+        <mj-divider border-color="lightgrey" border-width="2px" />
+    </mj-section>
+
     <!-- item 1 -->
     <mj-section>
-      <mj-group
-        vertical-align="middle"
-        width="500px"
-        background-color="#F6F4FC"
-      >
+      <mj-group vertical-align="middle" width="500px" background-color="#F6F4FC">
         <mj-column width="30%" background-color="#F6F4FC">
-          <mj-image
-            src="/img/purple-harmony-pillow.png"
-            alt="purple harmony pillow"
-            width="141px"
-          />
+          <mj-image src="/img/purple-harmony-pillow.png" alt="purple harmony pillow" width="141px" />
         </mj-column>
         <!-- Data -->
         <mj-column width="45%">
-          <mj-text
-            align="left"
-            padding-left="10px"
-            font-size="15px"
-            line-height="16px"
-            padding-top="10px"
-          >
+          <mj-text align="left" padding-left="10px" font-size="15px" line-height="16px" padding-top="10px">
             <strong style="color: #432b8d">Purple Harmony Pillow</strong><br />
             Size: M<br />
             Quantity: 1
@@ -184,74 +122,43 @@
         </mj-column>
         <!-- Price -->
         <mj-column width="25%">
-          <mj-text
-            align="center"
-            font-size="15px"
-            line-height="16px"
-            padding-top="10px"
-          >
+          <mj-text align="center" font-size="15px" line-height="16px" padding-top="10px">
             <strong>$179.00</strong>
           </mj-text>
         </mj-column>
       </mj-group>
     </mj-section>
+    
     <!-- item 2 -->
     <mj-section>
-      <mj-group
-        vertical-align="middle"
-        width="500px"
-        background-color="#F6F4FC"
-      >
+      <mj-group vertical-align="middle" width="500px" background-color="#F6F4FC">
         <mj-column width="30%" background-color="#F6F4FC">
-          <mj-image
-            src="/img/purple-soft-stretch-pillowcase.png"
-            alt="purple soft-stretch pillow case"
-            width="141px"
-          />
+          <mj-image src="/img/purple-soft-stretch-pillowcase.png" alt="purple soft-stretch pillow case" width="141px" />
         </mj-column>
         <!-- Data -->
         <mj-column width="45%">
-          <mj-text
-            align="left"
-            padding-left="10px"
-            padding-top="10px"
-            font-size="15px"
-            line-height="16px"
-          >
-            <strong style="color: #432b8d"
-              >Purple Soft-Stretch Pillow Case</strong
-            ><br />
+          <mj-text align="left" padding-left="10px" padding-top="10px" font-size="15px" line-height="16px">
+            <strong style="color: #432b8d">Purple Soft-Stretch Pillow Case</strong><br />
             Size: M<br />
             Quantity: 1
           </mj-text>
         </mj-column>
         <!-- Price -->
         <mj-column width="25%">
-          <mj-text
-            align="center"
-            font-size="15px"
-            line-height="16px"
-            padding-top="10px"
-          >
+          <mj-text align="center" font-size="15px" line-height="16px" padding-top="10px">
             <strong>$34.00</strong>
           </mj-text>
         </mj-column>
       </mj-group>
     </mj-section>
+    <!-- divider -->
+    <mj-section>
+      <mj-column background-color="#F6F4FC" css-class="card-outline">
+        <mj-divider border-color="lightgrey" border-width="2px" />
+      </mj-column>
+    </mj-section>
     <!-- cost breakdown -->
     <mj-section>
-      <mj-column
-      background-color="#F6F4FC"
-      width="500px"
-      padding="30px"
-      >
-        <mj-divider
-          border-color="lightgrey"
-          padding="10px 0px 5px 0px"
-          border-width="2px"
-        />
-        </mj-text>
-      </mj-column>
       <!-- subtotal -->
       <mj-group background-color="#F6F4FC" width="500px">
         <mj-column padding-left="35px">
@@ -297,23 +204,17 @@
           <mj-text align="left" font-size="16px" font-weight="bold">
             Total (USD)
           </mj-text>
-          <mj-divider
-          border-color="lightgrey"
-          padding-left="0"
-          padding-right="0"
-          border-width="2px"
-        />
         </mj-column>
         <mj-column>
           <mj-text align="right" padding-right="35px" font-size="16px" font-weight="bold">
             $254.43
           </mj-text>
-          <mj-divider
-            border-color="lightgrey"
-            padding-left="0"
-            padding-right="30px"
-            border-width="2px"
-          />
+        </mj-column>
+      </mj-group>
+      <!-- divider -->
+      <mj-group background-color="#F6F4FC" width="500px">
+        <mj-column>
+          <mj-divider border-color="lightgrey" border-width="2px" />
         </mj-column>
       </mj-group>
       <!-- card info -->
@@ -332,40 +233,40 @@
       <!-- billing info -->
       <mj-group background-color="#F6F4FC" width="500px">
         <mj-column padding-left="35px">
-          <mj-text align="left" font-size="16px">
+          <mj-text align="left" font-size="16px" padding-top="10px">
             John Doe
           </mj-text>
         </mj-column>
         <mj-column>
-          <mj-text align="right" padding-right="35px" font-size="16px">
+          <mj-text align="right" padding-right="35px" font-size="16px" padding-top="10px">
             123 Generic St. City, State 55555
           </mj-text>
-
         </mj-column>
       </mj-group>
       <mj-column width="500px" background-color="#F6F4FC" border-radius="0px 0px 10px 10px">
-        <mj-spacer height="30px"/>
+        <mj-spacer height="30px" />
         <!-- questions -->
         <mj-text font-size="16px" padding="10px">
           Questions about your order? Please contact <strong>purple</strong> or visit <a href="purple.com">https://purple.com</a>
         </mj-text>
-        <mj-spacer height="20px"/>
+        <mj-spacer height="20px" />
       </mj-column>
     </mj-section>
+
     <!-- FOOTER SECTION -->
-    <mj-section>
-      <mj-column>
-        <mj-text>
+    <mj-section padding-top="30px">
+      <mj-column background-color="#432b8d" padding="30px">
+        <mj-text color="#ffffff" font-size="16px" align="center">
           2002 purple
         </mj-text>
-        <mj-text>
+        <mj-text color="#ffffff" padding-top="20px" font-size="16px">
           555 Business Street City, State 55555
         </mj-text>
-        <mj-text>
-          <a href="purple.com">Contact Us</a>
-          <a href="purple.com">Privacy Policy</a>
+        <mj-text color="#ffffff" padding-top="30px" font-size="16px">
+          <a style="color: #ffffff; padding: 10px;" href="purple.com">Contact Us</a>
+          <a style="color: #ffffff; padding: 10px;" href="purple.com">Privacy Policy</a>
         </mj-text>
       </mj-column>
     </mj-section>
-  </mj-body
+  </mj-body>
 </mjml>
