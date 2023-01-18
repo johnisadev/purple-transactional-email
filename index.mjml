@@ -33,11 +33,14 @@
     </mj-style>
   </mj-head>
 
+  
+
+
   <mj-body background-color="lightgrey">
     <!-- LOGO SECTION -->
     <mj-section background-color="#E6E6E6">
       <mj-column>
-        <mj-image width="128px" padding="20px" src="/img/purple-logo.png" alt="logo" title="logo" />
+        <mj-image width="128px" padding="20px" src="https://i.ibb.co/6mz3XFT/purple-logo.png" alt="logo" title="logo" />
       </mj-column>
     </mj-section>
     <!-- NAVBAR -->
@@ -110,7 +113,8 @@
     <mj-section>
       <mj-group vertical-align="middle" width="500px" background-color="#F6F4FC">
         <mj-column width="30%" background-color="#F6F4FC">
-          <mj-image src="/img/purple-harmony-pillow.png" alt="purple harmony pillow" width="141px" />
+          <mj-image src="https://i.ibb.co/wpxhYPJ/purple-harmony-pillow.png
+          " alt="purple harmony pillow" width="141px" />
         </mj-column>
         <!-- Data -->
         <mj-column width="45%">
@@ -133,7 +137,7 @@
     <mj-section>
       <mj-group vertical-align="middle" width="500px" background-color="#F6F4FC">
         <mj-column width="30%" background-color="#F6F4FC">
-          <mj-image src="/img/purple-soft-stretch-pillowcase.png" alt="purple soft-stretch pillow case" width="141px" />
+          <mj-image src="https://i.ibb.co/NCyXFC6/purple-soft-stretch-pillowcase.png" alt="purple soft-stretch pillow case" width="141px" />
         </mj-column>
         <!-- Data -->
         <mj-column width="45%">
